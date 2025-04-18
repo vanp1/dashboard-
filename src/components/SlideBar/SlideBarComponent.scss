@@ -6,8 +6,6 @@ $text-color: #767676;
 .sidebar {
     background-color: $sidebar-bg;
     color: $text-color;
-    height: fit-content;
-    position: fixed;
 
     .sidebar-menu {
         display: flex;

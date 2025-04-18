@@ -12,6 +12,8 @@ import VacationDaySharehoder from './pages/VacationDaySharehoder/VacationDayShar
 import VacationDayGender from './pages/VacationDayGender/VacationDayGender';
 import VacationDayEmploymentType from './pages/VacationDayEmploymentType/VacationDayEmploymentType';
 import VacationDayEthnicity from './pages/VacationDayEthnicity/VacationDayEthnicity';
+import BenefitSharehoder from './pages/BenefitSharehoder/BenefitSharehoder';
+import BenefitPlan from './pages/BenefitPlan/BenefitPlan';
 
 function App() {
     return (
@@ -30,6 +32,8 @@ function App() {
                 <Route path="/vacationday-gender" element={<VacationDayGender />} />
                 <Route path="/vacationday-employment-type" element={<VacationDayEmploymentType />} />
                 <Route path="/vacationday-ethnicity" element={<VacationDayEthnicity />} />
+                <Route path="/benifit-sharehoder" element={<BenefitSharehoder />} />
+                <Route path="/benefit-plan" element={<BenefitPlan />} />
             </Routes>
         </div>
     );
