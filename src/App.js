@@ -6,7 +6,6 @@ import Headercomponent from './components/HeaderComponent/HeaderComponent'; // G
 import IncomeSharehoder from './pages/IncomeSharehoder/IncomeSharehoder';
 import IncomeGender from './pages/IncomeGender/IncomeGender';
 import IncomeDepartment from './pages/IncomeDepartment/IncomeDepartment';
-import IncomeEmploymenrType from './pages/IncomeEmploymenrType/IncomeEmploymenrType';
 import IncomeEthnicity from './pages/IncomeEthnicity/IncomeEthnicity';
 import VacationDaySharehoder from './pages/VacationDaySharehoder/VacationDaySharehoder';
 import VacationDayGender from './pages/VacationDayGender/VacationDayGender';
@@ -14,6 +13,7 @@ import VacationDayEmploymentType from './pages/VacationDayEmploymentType/Vacatio
 import VacationDayEthnicity from './pages/VacationDayEthnicity/VacationDayEthnicity';
 import BenefitSharehoder from './pages/BenefitSharehoder/BenefitSharehoder';
 import BenefitPlan from './pages/BenefitPlan/BenefitPlan';
+import IncomeEmploymentType from './pages/IncomeEmploymentType/IncomeEmploymentType';
 
 function App() {
     return (
@@ -26,7 +26,7 @@ function App() {
                 <Route path="/income-sharehoder" element={<IncomeSharehoder />} />
                 <Route path="/income-gender" element={<IncomeGender />} />
                 <Route path="/income-department" element={<IncomeDepartment />} />
-                <Route path="/income-employment-type" element={<IncomeEmploymenrType />} />
+                <Route path="/income-employment-type" element={<IncomeEmploymentType />} />
                 <Route path="/income-ethnicity" element={<IncomeEthnicity />} />
                 <Route path="/vacationday-sharehoder" element={<VacationDaySharehoder />} />
                 <Route path="/vacationday-gender" element={<VacationDayGender />} />
